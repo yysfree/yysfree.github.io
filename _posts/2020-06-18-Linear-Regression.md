@@ -12,5 +12,9 @@ first need to import sklearn and then call fit & predict method
 
 
 ```python
+from sklearn.linear_model import LinearRegression
+my_lr = LinearRegression()
+my_lr.fit(X,y)
+my_lr.predict(X,y)
 
 ```
